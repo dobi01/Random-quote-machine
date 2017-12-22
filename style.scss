@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#particles-js {
+	font-family: 'Poiret One', sans-serif;
+	height: 100vh;
+	background: #fff;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+    .container {
+      margin: 0 auto;
+      max-width: 800px;
+      max-height: 100vh;
+      background: inherit;
+      position: absolute;
+      top: 20vh;
+      left: 20vh;
+      right: 20vh;
+      box-shadow: 5px 5px 50px 15px #fff;
+      border-radius: 50px;
+      display: inline-block;
+        h1 {
+          margin-top: 40px;
+          font-size: 18px;
+          text-transform: lowercase;
+          color: grey;
+        }
+        h2 {
+          padding: 50px 50px 10px;
+          line-height: 33px;
+        }
+        h3 {
+          padding-bottom: 40px;
+        }
+        button {
+          margin-top: 40px;
+          border: 0;
+          background-color: inherit;
+	        font-family: 'Poiret One', sans-serif;
+          font-size: 20px;
+          cursor: pointer;
+          padding-bottom: 30px;
+          &:focus {
+            outline: none !important;
+          }
+          &:hover {
+            transform: scale(1.10);
+            &::after {
+              content: '';
+              border-bottom: .5px solid grey;
+              position: absolute;
+              left: 0;
+              bottom: 26px;
+              width: 100%;
+            }
+          }
+        }
+        a {
+          display: inline-block;
+          text-decoration: none;
+          padding-left: 0;
+          color: #000;
+          font-size: 18px;
+          &:hover {
+            transform: scale(1.10);
+          }
+          i {
+          	cursor: pointer;
+          	font-size: 23px;
+          	margin: 10px 5px;
+            color: #4099ff;
+            &:hover {
+            	transform: scale(1.10);
+            }
+          }
+        }
+      }
+      .footer {
+        top: 75vh;
+        max-width: 250px;
+        background: inherit;
+      }
+}
