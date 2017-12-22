@@ -1,1 +1,2 @@
-# task-12.5
+# Random quote machine
+https://dobi01.github.io/Random-quote-machine
