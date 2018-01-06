@@ -17,49 +17,58 @@
     max-height: 100vh;
     background: inherit;
     position: absolute;
-    top: 20vh;
+    top: 35vh;
     left: 20vh;
     right: 20vh;
-    box-shadow: 5px 5px 50px 15px #fff;
-    border-radius: 50px;
+    border: .3px solid #ccc;
     display: inline-block; }
-    #particles-js .container h1 {
-      margin-top: 40px;
-      font-size: 18px;
-      text-transform: lowercase;
-      color: grey; }
+    @media (max-width: 800px) {
+      #particles-js .container {
+        top: 35vh;
+        left: 20vw;
+        right: 20vw;
+        min-width: 120px; } }
     #particles-js .container h2 {
       padding: 50px 50px 10px;
       line-height: 33px; }
+      @media (max-width: 800px) {
+        #particles-js .container h2 {
+          font-size: 18px;
+          line-height: 23px;
+          padding: 20px 20px 10px; } }
     #particles-js .container h3 {
       padding-bottom: 40px; }
+      @media (max-width: 800px) {
+        #particles-js .container h3 {
+          font-size: 14px;
+          padding-bottom: 20px; } }
     #particles-js .container button {
-      margin-top: 40px;
+      margin-top: 10px;
       border: 0;
       background-color: inherit;
       font-family: 'Poiret One', sans-serif;
       font-size: 20px;
-      cursor: pointer;
-      padding-bottom: 30px; }
+      cursor: pointer; }
+      @media (max-width: 800px) {
+        #particles-js .container button {
+          font-size: 16px; } }
       #particles-js .container button:focus {
         outline: none !important; }
       #particles-js .container button:hover {
-        transform: scale(1.1); }
-        #particles-js .container button:hover::after {
-          content: '';
-          border-bottom: .5px solid grey;
-          position: absolute;
-          left: 0;
-          bottom: 26px;
-          width: 100%; }
+        transform: scale(1.1);
+        font-weight: bold; }
     #particles-js .container a {
       display: inline-block;
       text-decoration: none;
       padding-left: 0;
       color: #000;
       font-size: 18px; }
+      @media (max-width: 800px) {
+        #particles-js .container a {
+          font-size: 16px; } }
       #particles-js .container a:hover {
-        transform: scale(1.1); }
+        transform: scale(1.1);
+        font-weight: bold; }
       #particles-js .container a i {
         cursor: pointer;
         font-size: 23px;
@@ -68,7 +77,7 @@
         #particles-js .container a i:hover {
           transform: scale(1.1); }
   #particles-js .footer {
-    top: 75vh;
+    top: 85vh;
     max-width: 250px;
     background: inherit; }
 
