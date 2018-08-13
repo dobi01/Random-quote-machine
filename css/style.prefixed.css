@@ -24,7 +24,26 @@ main .col-l-6 .container {
   text-align: left;
   margin: 10% auto;
   max-width: 100vh;
-  padding: 5%;
+  padding: 50px;
+}
+
+@media (max-width: 1300px) {
+  main .col-l-6 .container {
+    padding: 10%;
+  }
+}
+
+@media (max-width: 850px) and (max-height: 500px) {
+  main .col-l-6 .container {
+    padding: 5% 5% 5% 10%;
+    margin: 5% auto;
+  }
+}
+
+@media (max-width: 480px) {
+  main .col-l-6 .container {
+    padding: 5% 5% 5% 20%;
+  }
 }
 
 main .col-l-6 .container p {
@@ -32,14 +51,52 @@ main .col-l-6 .container p {
   padding-bottom: 10px;
 }
 
+@media (max-width: 870px) {
+  main .col-l-6 .container p {
+    font-size: 16px;
+  }
+}
+
+@media (max-height: 600px) {
+  main .col-l-6 .container p {
+    font-size: 14px;
+  }
+}
+
 main .col-l-6 .container h1 {
   line-height: 40px;
   padding-bottom: 10px;
 }
 
+@media (max-width: 870px) {
+  main .col-l-6 .container h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+
+@media (max-height: 600px) {
+  main .col-l-6 .container h1 {
+    font-size: 21px;
+    line-height: 27px;
+  }
+}
+
 main .col-l-6 .container h2 {
   padding-bottom: 40px;
   font-size: 23px;
+}
+
+@media (max-width: 870px) {
+  main .col-l-6 .container h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-height: 600px) {
+  main .col-l-6 .container h2 {
+    font-size: 16px;
+  }
 }
 
 main .col-l-6 .container .trigger {
