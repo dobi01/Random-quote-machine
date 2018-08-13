@@ -1,35 +1,102 @@
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-#particles-js { font-family: 'Poiret One', sans-serif; height: 100vh; background: #fff; position: relative; text-align: center; overflow: hidden; }
+main {
+  font-family: 'Poiret One', sans-serif;
+  height: 100vh;
+  background: #fff;
+  color: #000;
+  position: relative;
+  overflow: hidden;
+}
 
-#particles-js .container { margin: 0 auto; max-width: 800px; max-height: 100vh; background: inherit; position: absolute; top: 35vh; left: 20vh; right: 20vh; border: .3px solid #ccc; display: inline-block; }
+main .col-l-6 {
+  width: 50%;
+  height: 100vh;
+  float: left;
+  position: relative;
+}
 
-@media (max-width: 800px) { #particles-js .container { top: 35vh; left: 20vw; right: 20vw; min-width: 120px; } }
+main .col-l-6 .container {
+  text-align: left;
+  margin: 10% auto;
+  max-width: 100vh;
+  padding: 5%;
+}
 
-#particles-js .container h2 { padding: 50px 50px 10px; line-height: 33px; }
+main .col-l-6 .container p {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
 
-@media (max-width: 800px) { #particles-js .container h2 { font-size: 18px; line-height: 23px; padding: 20px 20px 10px; } }
+main .col-l-6 .container h1 {
+  line-height: 40px;
+  padding-bottom: 10px;
+}
 
-#particles-js .container h3 { padding-bottom: 40px; }
+main .col-l-6 .container h2 {
+  padding-bottom: 40px;
+  font-size: 23px;
+}
 
-@media (max-width: 800px) { #particles-js .container h3 { font-size: 14px; padding-bottom: 20px; } }
+main .col-l-6 .container .trigger {
+  margin-top: 10px;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Poiret One', sans-serif;
+  font-size: 16px;
+  display: block;
+  padding: 4px 7px 7px;
+  border: none;
+  border: .5px solid #000;
+  cursor: pointer;
+}
 
-#particles-js .container button { margin-top: 10px; border: 0; background-color: inherit; font-family: 'Poiret One', sans-serif; font-size: 20px; cursor: pointer; }
+main .col-l-6 .container .trigger:focus {
+  outline: none !important;
+}
 
-@media (max-width: 800px) { #particles-js .container button { font-size: 16px; } }
+main .col-l-6 .container .trigger:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
 
-#particles-js .container button:focus { outline: none !important; }
+main .col-l-6 .container a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  position: absolute;
+  bottom: 5%;
+}
 
-#particles-js .container button:hover { transform: scale(1.1); font-weight: bold; }
+main .col-l-6 .container a:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
 
-#particles-js .container a { display: inline-block; text-decoration: none; padding-left: 0; color: #000; font-size: 18px; }
+main .col-l-6 .container a i {
+  cursor: pointer;
+  font-size: 23px;
+  margin-right: 5px;
+  color: #4099ff;
+}
 
-@media (max-width: 800px) { #particles-js .container a { font-size: 16px; } }
+main .col-l-6 .container a i:hover {
+  transform: scale(1.1);
+}
 
-#particles-js .container a:hover { transform: scale(1.1); font-weight: bold; }
+main #particles-js {
+  transform: rotate(15deg);
+  border-left: .5px solid black;
+  height: 200vh;
+  width: 150vw;
+  position: absolute;
+  top: -25%;
+  left: 50%;
+}
 
-#particles-js .container a i { cursor: pointer; font-size: 23px; margin: 10px 5px; color: #4099ff; }
-
-#particles-js .container a i:hover { transform: scale(1.1); }
-
-#particles-js .footer { top: 85vh; max-width: 250px; background: inherit; }
+/*# sourceMappingURL=style.css.map */
